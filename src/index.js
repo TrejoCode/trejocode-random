@@ -11,7 +11,7 @@ const messages = [
 
 const getMessage = () => {
     const message = messages[Math.floor(Math.random() * messages.length)];
-    console.log(message);
+    return message;
 };
 
 module.exports = getMessage;

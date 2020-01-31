@@ -5,13 +5,14 @@ Primer módulo de npm, simplemente regresa un nombre de manera aleatoria.
 ## Instalación
 
 ```npm
-npm install -g trejocode-random
+npm install trejocode-random
 ```
 
 # Uso
 
-```bash
-trejocode-random
+```javascript
+const message = require('trejocode-random');
+console.log(message());
 ```
 
 # Contribuir
