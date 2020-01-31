@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 /**
  * @name index.js
  * @description Punto de entrada de la aplicación
@@ -12,4 +14,4 @@ const getMessage = () => {
     console.log(message);
 };
 
-module.exports = { getMessage };
+module.exports = getMessage;

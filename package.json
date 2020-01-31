@@ -20,7 +20,6 @@
   "bin": {
     "trejocode-random": "./bin/global.js"
   },
-  "preferGlobal": true,
   "devDependencies": {},
   "repository": {
     "type": "git",
